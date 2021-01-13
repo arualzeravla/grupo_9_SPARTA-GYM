@@ -9,7 +9,7 @@
 <p><strong>Tomás Ruiz Guiñazú</strong> se desempeña como scrum master y practica danza contemporánea.<br>
 <strong>Laura Álvarez</strong> es empleada administrativa para Lenovo y practica entrenamiento funcional.</p>
 <h2 id="wireframes">Wireframes</h2>
-<p><a href="http://...">Link a Figma</a></p>
+<p><a href="https://kv08s6.axshare.com/#id=wx6lxh&p=home">Ver el wireframe</a></p>
 <h2 id="paleta-de-colores">Paleta de colores</h2>
 <p><a href="http://...">Link a Coolors.co</a></p>
 <h2 id="fuentes">Fuentes</h2>
