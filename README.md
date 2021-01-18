@@ -11,9 +11,9 @@
 <h2 id="wireframes">Wireframes</h2>
 <p><a href="https://kv08s6.axshare.com/#id=wx6lxh&p=home">Ver el wireframe</a></p>
 <h2 id="paleta-de-colores">Paleta de colores</h2>
-<p><a href="http://...">Link a Coolors.co</a></p>
+<p><a href="http://...">Link a Coolors.co (pendiente)</a></p>
 <h2 id="fuentes">Fuentes</h2>
-<p><a href="http://...">Link a Google Fonts</a></p>
+<p><a href="http://...">Link a Google Fonts (pendiente)</a></p>
 <h2 id="páginas-de-referencia">Páginas de referencia</h2>
 <h4 id="páginas-de-ejemplo-de-fitness-ecommerce">Páginas de ejemplo de fitness eCommerce</h4>
 <ul>
@@ -21,5 +21,6 @@
 <li><a href="https://www.roguefitness.com/crossfit-equipment">ROGUE</a> - El catálogo más completo del mercado.</li>
 <li><a href="https://www.garagegymreviews.com/best-crossfit-equipment-home-gym">GARAGE GYM</a> - Dedicados a la docencia de la práctica deportiva además de la venta de productos.</li>
 <li><a href="https://www.espartano360.com.ar/">ENTRENAMIENTO ESPARTANO 360</a> - Nuestros competidores más directos en nombre y temática pero no en venta de productos.</li>
+<li><a href="https://sparta.cl/">SPARTA</a> - Sitio web chileno dedicado a la venta de productos deportivos.</li>
 </ul>
 
