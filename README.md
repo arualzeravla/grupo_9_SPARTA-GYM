@@ -8,6 +8,8 @@
 <h4 id="sobre-el-equipo">Sobre el equipo</h4>
 <p><strong>Tomás Ruiz Guiñazú</strong> se desempeña como scrum master y practica danza contemporánea.<br>
 <strong>Laura Álvarez</strong> es empleada administrativa para Lenovo y practica entrenamiento funcional.</p>
+<h2 id="tablero">Seguimiento de tareas del proyecto</h2>
+<p><a href="https://trello.com/b/6aVM1fGD/sparta-gym">Ver el tablero en Trello</a></p>
 <h2 id="wireframes">Wireframes</h2>
 <p><a href="https://kv08s6.axshare.com/#id=wx6lxh&p=home">Ver el wireframe</a></p>
 <h2 id="paleta-de-colores">Paleta de colores</h2>
