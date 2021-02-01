@@ -13,7 +13,7 @@
 <h2 id="wireframes">Wireframes</h2>
 <p><a href="https://kv08s6.axshare.com/#id=wx6lxh&p=home">Ver el wireframe</a></p>
 <h2 id="paleta-de-colores">Paleta de colores</h2>
-<p><a href="http://...">Link a Coolors.co (pendiente)</a></p>
+<p><a href="https://coolors.co/425738-ccb26b-000000-d3d3d3">Link a Coolors.co</a></p>
 <h2 id="fuentes">Fuentes</h2>
 <p><a href="http://...">Link a Google Fonts (pendiente)</a></p>
 <h2 id="páginas-de-referencia">Páginas de referencia</h2>
