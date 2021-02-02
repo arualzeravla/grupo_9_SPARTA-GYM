@@ -14,3 +14,9 @@ input[type=text] {
         margin-bottom: 10px;
         box-sizing: border-box;
              }
+
+.boton {
+    width: 80%;
+        padding: 8px 12px;
+        margin: 6px; 
+}             
