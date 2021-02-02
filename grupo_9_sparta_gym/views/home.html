@@ -7,13 +7,13 @@
     <link rel="stylesheet" href='/css/styles.css'>
     <script src="https://kit.fontawesome.com/5b8d0b6d80.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">  
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <section class="main-header">
             <div class="logo">
-            <img class="logo" src="/images/logo-Sparta.png" alt="LOGO">
+            <img class="logo" src="/images/logo-byn.png" alt="LOGO">
             </div>
 
             <nav class="user-nav-bar">
@@ -24,28 +24,26 @@
             
         </section>
 
-        <div class="search-bar">
+        <section class=search-and-nav>
+       <div class="search-bar">
             <form action="/home" method="GET">
                 <i class="fas fa-search icono"> </i> 
-                <input type="text" name="busqueda" placeholder="Buscar productos, marcas y más"
+                <input type="text" name="busqueda" placeholder="Buscar...">
             </form>
         </div>
 
-            
-
+        <div class="menu">
+            <form action="/home" method="GET">
+                <input type="text" name="productos" placeholder="Nuestros Productos">
+                <input type="text" name="clases" placeholder="Clases Online">
+                <input type="text" name="quienes-somos" placeholder="Quienes Somos">
+                <input type="text" name="contacto" placeholder="Contacto">
+            </form>
         </div>
-            <nav class="nav-bar">
-            <a href="#">Productos</a>
-            <a href="#">Packs</a>
-            <a href="#">Indumentaria</a>
-            <a href="#">Máquinas</a>
-            <a href="#">Accesorios</a>
-            <a href="#">Clases online</a>
-            <a href="#">Quiénes somos</a>
-            <a href="#">Contacto</a>
-            </nav>
-            </div>
-        </header>
+        </section>
+
+    </header>
+    
     <main>
         <section class="destacados">
             <article>
