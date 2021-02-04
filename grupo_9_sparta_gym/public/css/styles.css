@@ -97,6 +97,26 @@ body{
     font-size: 1rem;
     }
 
+/*----- Inputs-----*/
 
+ .main input[type=text] {
+        width: 80%;
+        padding: 8px 12px;
+        margin: 6px 8px;
+        box-sizing: border-box;
+        }
 
+ .main input[type=password] {
+    width: 80%;
+    padding: 8px 12px;
+    margin: 6px 8px;
+    box-sizing: border-box;
+    }
+            
 
+.boton {
+    width: 80%;
+        padding: 8px 12px;
+        margin: 6px 8px; 
+        box-sizing: border-box;
+}             
