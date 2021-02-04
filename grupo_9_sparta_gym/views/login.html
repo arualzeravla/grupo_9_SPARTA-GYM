@@ -45,14 +45,19 @@
     </header>
     
     <main class="main">
-        <form action="/login"method="POST">
-
+        
+        <form action="/login"method="POST"><div style="text-align: center">
+            <h3>Log in</h3>
             <input type="text" name="Nombre de usuario" id="Nombre de usuario" minlength="2" required placeholder="Nombre de usuario"><br>
-            
-            
+           
+                     
             <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" ><br>
+
+         <div  class="recuerdame"><label>Recuérdame <input type="checkbox" id="recuerdame">
+          </label></div>
             <button type="submit" name="adjuntar" id="adjuntar" class="boton">Enviar</button>
             <br>
+        </div>
             </form>
 
     <footer>
