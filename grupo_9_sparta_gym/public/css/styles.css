@@ -112,5 +112,40 @@ body{
         font-weight: lighter;
         }
 
+ .main input[type=text] {
+        width: 80%;
+        padding: 8px 12px;
+                box-sizing: border-box;
+        margin: 6px 8px;
+        }
 
+ .main input[type=password] {
+    width: 80%;
+    padding: 8px 12px;
+    margin: 6px 8px;
+    box-sizing: border-box;
+    }
+  
+ .main input[type=checkbox]{
+    margin: 0px;
+    
+ }   
+.main a{margin: 6px 8px}            
+.recuerdame{
+    width: 95%;
+    margin: 6px 8px; 
+    display: flex;
+   justify-content: space-around;
+   display: flex;
+   
+   align-items: center;
+}
 
+.boton {
+    width: 80%;
+        padding: 8px 12px;
+        margin: 6px 8px; 
+        box-sizing: border-box;
+        background-color:  #FF1E00;
+        font-size: 1.1rem;
+}             
