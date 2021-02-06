@@ -95,42 +95,77 @@ body{
     font-size: 1rem;
     }
 
-/*---- Forms---------*/
+ /*---- Forms---------*/
 
-    .main input[type=text] {
-        width: 80%;
-        padding: 8px 12px;
-                box-sizing: border-box;
-        margin: 8px 8px;
-        }
-
- .main input[type=password] {
+ .main input[type=text] {
     width: 80%;
     padding: 8px 12px;
+            box-sizing: border-box;
     margin: 8px 8px;
-    box-sizing: border-box;
     }
-  
- .main input[type=checkbox]{
-    margin: 0px;
-    
- }   
+
+.main input[type=password] {
+width: 80%;
+padding: 8px 12px;
+margin: 8px 8px;
+box-sizing: border-box;
+}
+
+.main input[type=checkbox]{
+margin: 0px;
+
+}   
 .main a{margin: 6px 8px}            
 .recuerdame{
-    width: 95%;
-    margin: 6px 8px; 
-    display: flex;
-   justify-content: space-around;
-   display: flex;
-   
-   align-items: center;
+width: 95%;
+margin: 6px 8px; 
+display: flex;
+justify-content: space-around;
+display: flex;
+
+align-items: center;
 }
 
 .boton {
+width: 80%;
+    padding: 8px 12px;
+    margin: 6px 8px; 
+    box-sizing: border-box;
+    background-color:  #FF1E00;
+    font-size: 1.1rem;
+}                
+ .main{align-items: center;
+text-align: center; }
+
+
+/*Carrito----*/
+
+.tabla{
+    
+max-width: 70%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  padding-left: 5px;
+    
+}
+
+.img-responsive{ 
+   width: 100%;
+}
+.secundario{
     width: 80%;
-        padding: 8px 12px;
-        margin: 6px 8px; 
-        box-sizing: border-box;
-        background-color:  #FF1E00;
-        font-size: 1.1rem;
-}             
+    padding: 8px 12px;
+    margin: 6px 8px; 
+    box-sizing: border-box;
+    background-color: grey;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.footer_nav_bar{
+       margin: auto;
+       align-items: center;
+       align-content: center;
+      
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SPARTA GYM</title>
+    <link rel="stylesheet" href='/css/carrito.css'>
+    <script src="https://kit.fontawesome.com/5b8d0b6d80.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="main-header">
+            <div class="logo">
+           <a href="/"><img class="logo" src="/images/logo-byn.png" alt="LOGO"></a> 
+            </div>
+
+            <nav class="user-nav-bar">
+                <a href="#"><i class="fas fa-user-circle"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+            
+        </section>
+
+        <section class=search-and-nav>
+       <div class="search-bar">
+            <form action="/home" method="GET">
+                <i class="fas fa-search icono"> </i> 
+                <input type="text" name="busqueda" placeholder="Buscar...">
+            </form>
+        </div>
+
+        <div class="menu">
+            <form action="/home" method="GET">
+                <input type="text" name="productos" placeholder="Nuestros Productos">
+                <input type="text" name="clases" placeholder="Clases Online">
+                <input type="text" name="quienes-somos" placeholder="Quienes Somos">
+                <input type="text" name="contacto" placeholder="Contacto">
+            </form>
+        </div>
+        </section>
+
+    </header>
+    
+    <main class="main">
+        <br>
+        <div>
+            <h3>Mi carrito</h3>
+            <br>
+            <table id="carrito" class="tabla">
+                <thead>
+                    <tr>
+                        <th style="width:50%">Producto</th>
+                        <th style="width:10%">Precio</th>
+                        <th style="width:8%">Cantidad</th>
+                        <th style="width:22%">Subtotal</th>
+                        <th style="width:10%"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-th="Product">
+                            <div>
+                                <div><img src="https://www.rogueeurope.eu/media/catalog/product/cache/5/image/1500x1500/472321edac810f9b2465a359d8cdc0b5/r/o/rogue-black-med-balls-web1.jpg" alt="..." class="img-responsive"/></div>
+                                <div>
+                                    <h4>Producto 1</h4> <br>
+                                                                  </div>
+                            </div>
+                        </td>
+                        <td data-th="Precio">$7.862</td>
+                        <td data-th="Cantidad">
+                            <input type="number" value="1" min="0">
+                        </td>
+                        <td data-th="Subtotal" class="text-center">$7.862</td>
+                        <td data-th="">
+                       
+                        <button type="reset" class="secundario"><i class="fa fa-trash-o"></i></button>
+                           							
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+
+               <a  href="/"> <button type="submit" class="boton">Comprar</button></a>
+                </div></main>
+<br>
+
+
+<footer>
+    <nav class="footer_nav_bar">
+        <a href="#">Trabajá con nosotros</a>
+        <a href="#">Preguntas Frecuentes</a>
+        <div class="redes">
+            <a href="#">Buscanos en las redes</a>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-facebook-square"></i>
+        </div>
+    </nav>
+    <h4 id="copyright">Todos los derechos reservados Sparta Gym S.R.L.</h2>
+</footer>
+</body>
+</html>
