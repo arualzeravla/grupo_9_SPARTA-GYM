@@ -132,4 +132,24 @@ body{
         box-sizing: border-box;
         background-color:  #FF1E00;
         font-size: 1.1rem;
-}             
+}      
+
+    /*FOOTER*/
+
+    .footer_nav_bar{
+        text-align: center;
+        margin: 30px 0;
+        
+    }
+
+    .footer_nav_bar a {
+        display: block;
+        margin: 8px;
+        color: black;
+        text-decoration: none;
+    }
+
+    .footer_nav_bar i{
+        font-size: 30px;
+        color: blue;
+    }
