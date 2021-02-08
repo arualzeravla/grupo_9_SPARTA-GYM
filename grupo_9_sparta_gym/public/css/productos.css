@@ -120,7 +120,7 @@ body{
     }
 
    .precio{
-       color: green;
+       color: #008000;
        font-weight: bolder;
        font-size: 20px;
        padding: 9px;
