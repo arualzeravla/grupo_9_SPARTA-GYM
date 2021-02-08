@@ -26,6 +26,19 @@ app.get ("/leonidas", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/leonidas.html"))
 });
 
-app.get ("/carrito", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "./views/carrito.html"))
+app.get ("/anaxandro", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/anaxandro.html"))
 });
+
+app.get ("/bandas", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/bandas.html"))
+});
+
+app.get ("/helena", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/helena.html"))
+});
+
+app.get ("/speedrope", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/speedrope.html"))
+});
+

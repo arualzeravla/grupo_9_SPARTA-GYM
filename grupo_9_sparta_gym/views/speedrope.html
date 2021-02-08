@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>SPARTA GYM</title>
+    <link rel="stylesheet" href='/css/productos.css'>
+    <script src="https://kit.fontawesome.com/5b8d0b6d80.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="main-header">
+            <a href="/" class="logo">
+                <img class="logo" src="/images/logo-byn.png" alt="LOGO">
+                </a>
+
+            <nav class="user-nav-bar">
+                <a href="login"><i class="fas fa-user-circle"></i></a>
+                <a href="#"><i class="fas fa-heart"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </nav>
+            
+        </section>
+
+        <section class=search-and-nav>
+       <div class="search-bar">
+            <form action="/home" method="GET">
+                <i class="fas fa-search icono"> </i> 
+                <input type="text" name="busqueda" placeholder="Buscar...">
+            </form>
+        </div>
+
+        <div class="menu">
+            <form action="/home" method="GET">
+                <input type="text" name="productos" placeholder="Nuestros Productos">
+                <input type="text" name="clases" placeholder="Clases Online">
+                <input type="text" name="quienes-somos" placeholder="Quienes Somos">
+                <input type="text" name="contacto" placeholder="Contacto">
+            </form>
+        </div>
+        </section>
+
+    </header>
+
+
+
+    <main>
+        <article>
+            <h2 class="nombre_producto">Speed Rope</h2>
+            <img src="/images/speed-rope.jpg" alt="producto">
+            <div class="descripcion_producto"> 
+                <h3>Contenido del Pack:</h3>
+                <ul>
+                    <li>1 speed rope de cable de acero de 2m</li> 
+                </ul>
+            <div class="precio-y-carrito">
+            <p class="precio"> $ 1.999 </p>
+            <form action="#">
+                <button>Agregar al carrito <i class="fas fa-shopping-cart"></i></button>
+            </form>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <nav class="footer_nav_bar">
+            <a href="#">Trabajá con nosotros</a>
+            <a href="#">Preguntas Frecuentes</a>
+            <div class="redes">
+                <a href="#">Buscanos en las redes</a>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-facebook-square"></i>
+            </div>
+        </nav>
+        <h4 id="copyright">Todos los derechos reservados Sparta Gym S.R.L.</h2>
+    </footer>
+</body>
+</html>
