@@ -13,9 +13,9 @@
 <h2 id="wireframes">Wireframes</h2>
 <p><a href="https://kv08s6.axshare.com/#id=wx6lxh&p=home">Ver el wireframe</a></p>
 <h2 id="paleta-de-colores">Paleta de colores</h2>
-<p><a href="https://coolors.co/425738-ccb26b-000000-d3d3d3">Link a Coolors.co</a></p>
+<p><a href="https://coolors.co/f1fdff-d3d3d3-ff1e00-008000">Link a Coolors.co</a></p>
 <h2 id="fuentes">Fuentes</h2>
-<p><a href="http://...">Link a Google Fonts (pendiente)</a></p>
+<p><a href="https://fonts.google.com/specimen/Oswald?preview.text_type=custom">Link a Google Fonts - "Oswald"</a></p>
 <h2 id="páginas-de-referencia">Páginas de referencia</h2>
 <h4 id="páginas-de-ejemplo-de-fitness-ecommerce">Páginas de ejemplo de fitness eCommerce</h4>
 <ul>
