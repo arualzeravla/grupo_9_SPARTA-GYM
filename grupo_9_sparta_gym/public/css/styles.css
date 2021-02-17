@@ -1,99 +1,95 @@
 * {
     box-sizing: border-box;
     margin:0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 body{
-   background-color: #f1fdff;
+   background-color:  white;
 }
 
 /* HEADER: */
 
-.main-header /*LOGO Y USER NAV BAR*/{
+
+/* Seccion "logo-and-login-header" (Barra superior con menu, logo, iconos): */
+
+.menu-icono {
+    color: #BF1A20;
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+
+.logo-and-login-header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #FF1E00;
+    
    }
 
 .logo img{
     max-width: 100%;
 }
 .logo{
-    max-width: 30%;
+    max-width: 60%;
     }
 
-.user-nav-bar{
-    width: 70%;
-    text-align: end;
-    padding-top: 18%;
+.login-and-cart-icons{
+    padding-top: 10px;
     padding-right: 10px;
     }
 
-.user-nav-bar a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.8rem;
-    padding: 4px
+.login-and-cart-icons a {
+    color: #BF1A20;
+    font-size: 1.2em;
+    padding: 5px
     }
 
-/*NAVEGACION: BUSCADOR Y SECCIONES*/
+.banner{
+    width: 100%;
+}
+
+/*Seccion "search-and-nav" (BANNER Y BUSCADOR)*/
 
 .search-bar{
    text-align: center;
-        }
+   padding-top: 8px;
+   height: 8vh;
+  }
 
 .search-bar input {
-    width: 75%;
-    font-size: 1rem;
-    background-color: #D3D3D3;
-    border: none;
-    margin: 10px;
+    font-size: 1em;
+    background-color: white;
+    border-top: black solid 2px;
+    border-right: black solid 2px;
+    border-bottom: black solid 2px;
+    border-left: none;
+    margin-left: -6px;
+    border-radius: 0 5px 5px 0;
+    padding: 3.5px 0 2px 10px;
+    width: 65%;
    }
 
 .search-bar i {
-    color: #FF1E00;
-    padding: 3px;
-    font-size: 1.2rem;
-    background-color: #D3D3D3;
-     
+    color: #BF1A20;
+    padding: 7px 2px 4.5px 45px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+    border-top: black solid 2px;
+    border-left: black solid 2px;
+    border-bottom: black solid 2px;
+    border-right: none;
 }
 
-::-webkit-input-placeholder { 
+::placeholder { 
     color: black;
+    font-size: 0.8em;
     }
 
+/* MAIN: */
 
-.search-and-nav {
-    background-image: url('/images/banner1.jpg');
-    background-size: cover;
-    height: 150px
-}
-
-.menu {
-    text-align: center;
-}
-
-.menu form{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-}
-
-.menu input{
-    margin: 10px;
-    text-align: center;
-    background-color: #D3D3D3;
-    border: none;
-    width: 40%;
-    padding: 3px;
-    font-size: 1rem;
-    height: 25px;
-    }
-
-    /*PRODUCTOS DESTACADOS*/
+/*Seccion "destacados" (Productos destacdos)*/
 
     .destacados img{
         width: 90%;
@@ -103,40 +99,170 @@ body{
     .destacados article{
         text-align: center;
         margin: 20px;
-        box-shadow : 0px 0px 10px rgb(114, 114, 114);
-        background-color: white;
+        padding: 15px;
+        box-shadow : 0px 0px 10px rgba(0, 0, 0, 0.527);
+        background-color: rgba(0, 0, 0, 0.062);
     }
 
-    .destacados h1 {
-        margin: 10px;
-        }
+    .nombre_producto {
+        text-decoration: none;
+        color: #BF1A20;
+        font-size: 0.7em;
+    }
 
-    .precio-y-carrito{
+    .precios{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        margin: 0 35%;
+        justify-content: center;
+        padding-top: 5px;
     }
 
+    .precio-sin-dto {
+        font-size: 0.8em;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        color: RGB(213, 126, 46);
+        padding-right: 10px;
+        text-decoration: line-through;
+    }
 
-    /*FOOTER*/
+    .precio-final{
+        font-size: 1.2em;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        color: RGB(213, 126, 46);
+    }
+
+    .detalles {
+        text-decoration: none;
+        font-size: 0.7em;
+        color: rgb(45, 131, 70);
+    }
+
+    main h1 {
+        margin: 18px 0 8px 10px;
+        color: #BF1A20;
+        font-size: 1em;
+    }
+
+    .flecha {
+        color: #BF1A20;
+        font-size: 1em;
+        padding: 5px;
+    }
+
+/*FOOTER*/
 
     .footer_nav_bar{
-        text-align: center;
-        margin: 30px 0;
-        
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0.089);
+        padding: 15px;
+             
     }
 
     .footer_nav_bar a {
         display: block;
-        margin: 8px;
         color: black;
         text-decoration: none;
     }
 
-    .footer_nav_bar i{
+    .fa-facebook-square{
         font-size: 30px;
         color: blue;
+        padding-left: 5px;
+    }
+
+    .fa-instagram {
+        font-size: 30px;
+        color: purple;
+        padding-left: 10px;
+    }
+
+    .redes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        padding-top: 10px;
+    }   
+
+    .fa-angle-double-right {
+        padding: 6px;
+        color: black;
+        font-size: 0.7em;
+    }
+
+
+
+    #copyright {
+        font-size: 0.6em;
+        padding: 35px 0 5px 0;
+        color: black;
+        text-align: right;
+    }
+
+    @media (min-width: 768px){
+        .search-bar i {
+            padding: 6.5px 2px 4.5px 45px;
+        }
+
+        .logo-and-login-header{
+            height: 10vh;
+            padding-top: 8px;
+        }
+
+        .logo img{
+            height: 60%;
+            padding-left: 50px;
+            margin-top: -10px;
+        }
+
+        .menu-icono {
+            padding: 12px;
+            font-size: 1.8em;
+        }
+
+        .login-and-cart-icons
+        {
+            font-size: 1.3em;
+        }
+
+        .destacados{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .destacados article{
+            width: 40%;
+        }
+    }
+
+    @media (min-width: 1200px){
+        .logo img {
+            height: 10vh;
+            padding-left: 0;
+        }
+
+        .menu-icono{
+            font-size: 2.5em;
+            padding: 15px 0 0 30px;
+        }
+
+        .login-and-cart-icons
+        {
+            font-size: 1.8em;
+            padding: 18px 26px 0 0;
+        }
+        
+        .banner{
+            max-height: 50vh;
+        }
+
+        .destacados article{
+            width: 22%;
+        }
+
+        
     }
 
 
