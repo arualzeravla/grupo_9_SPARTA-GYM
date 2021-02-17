@@ -52,42 +52,45 @@ body{
 
 /*---- Forms---------*/
 
-    .main input[type=text] {
-        width: 80%;
-        padding: 8px 12px;
-                box-sizing: border-box;
-        margin: 8px 8px;
-        }
-
- .main input[type=password] {
-    width: 80%;
-    padding: 8px 12px;
-    margin: 8px 8px;
-    box-sizing: border-box;
-    }
-  
- .main input[type=checkbox]{
-    margin: 0px;
-    
- }   
-.main a{margin: 6px 8px}            
-.recuerdame{
-    width: 95%;
-    margin: 6px 8px; 
-    display: flex;
-   justify-content: space-around;
-   display: flex;
-   
-   align-items: center;
+h3{
+    color: #BF1A20;
+    font-size: 22px;
+    margin-top: 15px;
+    text-align: center;
+}
+.contenedor-form{
+    max-width: 45%;
+    margin: auto;
+    padding-bottom: 25px;
 }
 
+.recuerdame{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.main input {
+    width: 100%;
+    padding: 8px;
+    margin: 10px;
+    border: solid black 2px;
+    }
+
+ 
+.main a {
+    margin: 6px 8px
+}            
+
+
 .boton {
-    width: 80%;
-        padding: 8px 12px;
-        margin: 6px 8px; 
-        box-sizing: border-box;
-        background-color:  #FF1E00;
-        font-size: 1.1rem;
+    width: 30%;
+    padding: 8px 12px;
+    margin: 6px 8px; 
+    box-sizing: border-box;
+    background-color:  black;
+    color: white;
+    font-size: 1.1rem;
 }      
 
  /*FOOTER*/
@@ -138,3 +141,64 @@ body{
     color: black;
     text-align: right;
 }
+
+
+@media (min-width: 768px){
+   
+    /*HEADER*/
+     .search-bar i {
+         padding: 6.5px 2px 4.5px 45px;
+     }
+ 
+     .logo-and-login-header{
+         height: 10vh;
+         padding-top: 8px;
+     }
+ 
+     .logo img{
+         height: 60%;
+         padding-left: 50px;
+         margin-top: -10px;
+     }
+ 
+     .menu-icono {
+         padding: 12px;
+         font-size: 1.8em;
+     }
+ 
+     .login-and-cart-icons
+     {
+         font-size: 1.3em;
+     }
+ 
+    
+ }
+ 
+ @media (min-width: 1200px){
+ 
+     /*HEADER*/
+ 
+     .logo img {
+         height: 10vh;
+         padding-left: 0;
+     }
+ 
+     .menu-icono{
+         font-size: 2em;
+         padding: 15px 0 0 30px;
+     }
+ 
+     .login-and-cart-icons
+     {
+         font-size: 1.8em;
+         padding: 8px 26px 0 0;
+     }
+     
+     .banner{
+         max-height: 50vh;
+     }
+ 
+     
+       
+ }
+ 

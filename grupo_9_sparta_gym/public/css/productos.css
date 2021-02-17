@@ -62,7 +62,7 @@ body{
 
     article h2{
         margin-bottom: 15px;
-        color: #FF1E00;
+        color: #BF1A20;
     }
 
     article h3{
@@ -77,12 +77,29 @@ body{
         list-style: none;
     }
 
-   .precio{
-       color: #008000;
-       font-weight: bolder;
-       font-size: 20px;
-       padding: 9px;
-   }
+    .precios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5px;
+    }
+
+    .precio-sin-dto {
+        font-size: 0.8em;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        color: RGB(213, 126, 46);
+        padding-right: 10px;
+        text-decoration: line-through;
+    }
+
+    .precio-final{
+        font-size: 1.2em;
+        font-weight: bolder;
+        padding-bottom: 15px;
+        color: RGB(213, 126, 46);
+    }
+
    /*FOOTER*/
 
    .footer_nav_bar{
@@ -130,4 +147,72 @@ body{
     padding: 35px 0 5px 0;
     color: black;
     text-align: right;
+}
+
+@media (min-width: 768px){
+   
+   /*HEADER*/
+    .search-bar i {
+        padding: 6.5px 2px 4.5px 45px;
+    }
+
+    .logo-and-login-header{
+        height: 10vh;
+        padding-top: 8px;
+    }
+
+    .logo img{
+        height: 60%;
+        padding-left: 50px;
+        margin-top: -10px;
+    }
+
+    .menu-icono {
+        padding: 12px;
+        font-size: 1.8em;
+    }
+
+    .login-and-cart-icons
+    {
+        font-size: 1.3em;
+    }
+
+    /*PRODUCTO*/
+
+    article img {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1200px){
+
+    /*HEADER*/
+
+    .logo img {
+        height: 10vh;
+        padding-left: 0;
+    }
+
+    .menu-icono{
+        font-size: 2em;
+        padding: 15px 0 0 30px;
+    }
+
+    .login-and-cart-icons
+    {
+        font-size: 1.8em;
+        padding: 8px 26px 0 0;
+    }
+    
+    .banner{
+        max-height: 50vh;
+    }
+
+     /*PRODUCTO*/
+
+     article img {
+        max-width: 40%;
+    }
+
+      
 }

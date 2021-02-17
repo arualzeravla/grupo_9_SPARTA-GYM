@@ -124,3 +124,64 @@ max-width: 70%;
     color: black;
     text-align: right;
 }
+
+
+@media (min-width: 768px){
+   
+    /*HEADER*/
+     .search-bar i {
+         padding: 6.5px 2px 4.5px 45px;
+     }
+ 
+     .logo-and-login-header{
+         height: 10vh;
+         padding-top: 8px;
+     }
+ 
+     .logo img{
+         height: 60%;
+         padding-left: 50px;
+         margin-top: -10px;
+     }
+ 
+     .menu-icono {
+         padding: 12px;
+         font-size: 1.8em;
+     }
+ 
+     .login-and-cart-icons
+     {
+         font-size: 1.3em;
+     }
+ 
+    
+ }
+ 
+ @media (min-width: 1200px){
+ 
+     /*HEADER*/
+ 
+     .logo img {
+         height: 10vh;
+         padding-left: 0;
+     }
+ 
+     .menu-icono{
+         font-size: 2em;
+         padding: 15px 0 0 30px;
+     }
+ 
+     .login-and-cart-icons
+     {
+         font-size: 1.8em;
+         padding: 8px 26px 0 0;
+     }
+     
+     .banner{
+         max-height: 50vh;
+     }
+ 
+     
+       
+ }
+ 
